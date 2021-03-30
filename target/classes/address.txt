@@ -1,0 +1,4 @@
+rest测试地址：http://localhost:8078/databus/api/plugins/plugin-template/plugin/restIndicate
+webservice xml查看地址：http://localhost:8078/databus/services
+
+参考文章：https://blog.csdn.net/wangyuanjun008/article/details/79121687

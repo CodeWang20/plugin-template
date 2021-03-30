@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dhcc.template.mapper.OptionDao">
+    <insert id="addOption" parameterType="com.dhcc.template.entity.Option">
+        insert into `option` (PHY_ID, PHY_CONT_ID, 法律审核人员, 法律审核意见, 接收日期, 审核日期) values (#{phyId}, #{phyContId}, #{auditPerson}, #{auditOption}, #{acceptDate}, #{auditDate});
+    </insert>
+</mapper>
